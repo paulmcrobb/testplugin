@@ -1,0 +1,26 @@
+.solas-adverts-availability{ border:1px solid #dcdcde; border-radius:12px; padding:14px; background:#fff; }
+.solas-avail-controls{ display:flex; flex-wrap:wrap; gap:12px; align-items:center; margin-bottom:10px; }
+.solas-avail-controls label{ font-weight:600; }
+.solas-avail-controls select{ min-width:240px; padding:6px 10px; border-radius:10px; border:1px solid #c3c4c7; }
+.solas-avail-legend{ display:flex; gap:8px; margin-left:auto; flex-wrap:wrap; }
+.solas-chip{ display:inline-flex; align-items:center; gap:6px; padding:4px 10px; border-radius:999px; font-size:12px; border:1px solid #c3c4c7; }
+.solas-chip-free::before{ content:''; width:10px; height:10px; border-radius:50%; background:#46b450; display:inline-block; }
+.solas-chip-partial::before{ content:''; width:10px; height:10px; border-radius:50%; background:#ffb900; display:inline-block; }
+.solas-chip-full::before{ content:''; width:10px; height:10px; border-radius:50%; background:#dc3232; display:inline-block; }
+.solas-avail-note{ color:#50575e; margin:6px 0 10px; }
+.solas-avail-result{ margin-top:12px; padding-top:10px; border-top:1px solid #dcdcde; }
+.solas-avail-card{ border:1px solid #dcdcde; border-radius:12px; padding:12px; background:#fff; max-width:740px; }
+.solas-avail-card--warn{ border-color:#ffb900; }
+.solas-avail-title{ font-size:14px; margin-bottom:6px; }
+.solas-avail-sub{ color:#50575e; font-size:13px; margin-bottom:8px; }
+.solas-avail-msg{ margin:8px 0; }
+.solas-avail-actions{ display:flex; flex-wrap:wrap; gap:8px; align-items:center; margin-top:10px; }
+
+/* Small, tidy buttons (works with most themes + Woo blocks pages) */
+.solas-btn{ display:inline-flex; align-items:center; justify-content:center; gap:8px; padding:8px 12px; border-radius:10px; border:1px solid #c3c4c7; background:#fff; color:#1d2327; font-weight:600; font-size:13px; line-height:1; text-decoration:none; cursor:pointer; }
+.solas-btn--primary{ background:#2271b1; border-color:#2271b1; color:#fff; }
+.solas-btn--ghost{ background:#fff; }
+.solas-btn:hover{ filter:brightness(0.98); }
+.fc .solas-adverts-free{ background: rgba(70,180,80,0.18) !important; }
+.fc .solas-adverts-partial{ background: rgba(255,185,0,0.18) !important; }
+.fc .solas-adverts-full{ background: rgba(220,50,50,0.18) !important; }

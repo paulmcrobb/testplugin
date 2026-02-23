@@ -1,0 +1,34 @@
+/* FullCalendar toolbar icon buttons using WP Dashicons */
+.fc .fc-monthIcon-button,
+.fc .fc-listIcon-button{
+  position: relative;
+  width: 40px;
+  min-width: 40px;
+  padding: 0;
+}
+
+/* hide text but keep button sizing */
+.fc .fc-monthIcon-button,
+.fc .fc-listIcon-button{
+  font-size: 0 !important;
+}
+
+/* calendar icon */
+.fc .fc-monthIcon-button::before{
+  content: "\f145"; /* dashicons-calendar */
+  font-family: dashicons;
+  font-size: 18px;
+  line-height: 38px;
+  display: block;
+  text-align: center;
+}
+
+/* list icon */
+.fc .fc-listIcon-button::before{
+  content: "\f163"; /* dashicons-list-view */
+  font-family: dashicons;
+  font-size: 18px;
+  line-height: 38px;
+  display: block;
+  text-align: center;
+}
