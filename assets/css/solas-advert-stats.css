@@ -1,0 +1,6 @@
+.solas-advert-stats{max-width:980px}
+.solas-advert-stats__cards{display:flex;flex-wrap:wrap;gap:12px;margin:16px 0}
+.solas-stat-card{border:1px solid rgba(0,0,0,.1);border-radius:12px;padding:12px 14px;min-width:160px}
+.solas-stat-card__label{font-size:12px;opacity:.75;margin-bottom:6px}
+.solas-stat-card__value{font-size:22px;font-weight:700}
+.solas-advert-stats__note{opacity:.8;margin-top:12px}
